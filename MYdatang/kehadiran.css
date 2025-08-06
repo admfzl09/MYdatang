@@ -1,0 +1,177 @@
+.body {
+  background: url("./img/bg.png"); 
+  background-color: #fbf2e8;
+  font-family:dmsans, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.navTop {
+  background-color: #791422;
+  color: white;
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 80px;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.navList li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.admin {
+  color: #791422;
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #ffbd59;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.kehadiran {
+  color: #791422;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.Item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.kehadiranItem {
+  flex-direction: column;
+  width: 46%;
+  display: flex;
+}
+
+.isiMasa {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.selectDatang {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.isiKehadiran {
+  background-color: #791422;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Heading styles */
+h1 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Form container */
+form {
+    background-color: #791422;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"],
+input[type="passwordconfirm"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Button styling */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffbd59;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #50a045;
+}
+
+/* Link styling */
+p a {
+    color: #4e4caf;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

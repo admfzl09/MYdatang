@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isi Kehadiran Pelajar</title>
+  <link rel="stylesheet" href="kehadiran.css">
+</head>
+<body class="body">
+  <div class="navTop">
+    <img src="./img/logo/logo1.png" width="30px" height="30px" alt="">
+    <ul class="navList">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutUs.html">About Us</a></li>
+      <li><a href="support.html">Support</a></li>
+    </ul>
+    <span class="admin" onclick="location.href='admin.html';" style="cursor: pointer;">Admin</span>
+  </div>
+  <h1 style="color: #791422; font-style: italic;" >
+    Isi Kehadiran Pelajar
+  </h1>
+  <div class="kehadiran">
+    <form action="data1.php" method="POST" class="isiKehadiran">
+      <h1>MY datang</h1>
+      <h3 style="text-align: center;">E - kehadiran Pelajar</h3>
+      <h3>Nama</h3>
+      <input type="text" name="nama" required>
+      <div class ="Item">
+        <div class="kehadiranItem">
+          <h3>Nama Kelas</h3>
+          <input type="text" name="kelas" required>
+        </div>
+        <div class="kehadiranItem">
+          <h3>Kehadiran</h3>
+          <select class="selectDatang" name="status" required>
+            <option value="Hadir">&#9989 Hadir</option>
+            <option value="Tidak Hadir">&#10060 Tidak Hadir</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+

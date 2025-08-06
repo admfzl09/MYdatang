@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support</title>
+  <link rel="stylesheet" href="support.css">
+</head>
+<body class="body">
+  <header>
+    <div class="logo">
+      <img src="./img/logo/logo1.png" alt="Logo">
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="aboutUs.html">About Us</a>
+      <a href="support.html">Support</a>
+    </nav>
+     <span class="admin-btn" onclick="location.href='admin.html';" style="cursor: pointer;">Admin</span>
+  </header>
+
+  <main>
+    <div class="left-info">
+      <p>mfzlproduction@gmail.com<br>0112345678</p>
+      <div class="icon-text">
+        <img src="./img/logo/logo.png" alt="icon">
+        <p>An attendance website helps track and manage attendance easily, saves time and keeps records organized in one secure place.</p>
+      </div>
+    </div>
+    <div class="support-form">
+      <div class="form-header">
+        <img src="./img/logo/support.png" alt="Support Icon">
+        <h2>Support</h2>
+      </div>
+      <form action="data3.php" method="post" >
+        <label>Email :</label>
+        <input type= "email" name="email">
+        <label>Reason :</label>
+        <textarea name="reason"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
